@@ -1,0 +1,16 @@
+<system>
+  <title>
+    KOMS Web
+  </title>
+  <short-description>
+    Text browsing assistant for affordances on typed entities via modular proxy 
+  </short-description>
+  <medium-description>
+    A derivative of AlleyOop system.  KOMS Web uses entity typing to
+    markup entities found in web pages and other URI, and presents the
+    user with menus for actions to perform on these entities.  This
+    avoids having to write browser plugins.
+  </medium-description>
+  <long-description>
+  </long-description>
+</system>
