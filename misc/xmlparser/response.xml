@@ -1,0 +1,9 @@
+<message>
+  <id>1</id>
+  <sender>Echo</sender>
+  <receiver>WS-Server-XMLRPC</receiver>
+  <date>Thu May 21 10:33:26 EDT 2020</date>
+  <contents>Hi</contents>
+  <data>$VAR1 = {};
+  </data>
+</message>

@@ -1,0 +1,71 @@
+ACTIONS TO TAKE ON VARIOUS TYPES OF TEXTUAL ENTITIES
+
+All
+	Copy to Clipboard
+
+URL
+	Inspect
+	Archive URL Content
+	Archive URL Contents Recursively
+	Add to Metasites: radar -y $1
+	Process with radar-web-search: radar-web-search -m $1
+	Convert to NLU-MF format: 
+
+CurrentURL
+	{URL}
+
+PDFURL
+	Process with Sentinel: cd /home/andrewdo/Documents && wget $1
+
+GitUserURL
+	Process with github-spider: github-spider -s $1
+
+GitRepoURL
+	Process with RADAR: radar -y $1
+
+ArchiveURL
+	Process with RADAR: radar -y $1
+	Add to Datasets: cd /var/lib/myfrdcsa/datasets && wget $1
+
+Person Name
+	Dossier
+		View
+		Create
+		Edit
+              
+Organization
+	Dossier
+		View
+		Create
+		Edit
+
+Location
+	
+  (IRC etc) Alias
+
+####
+
+Research Topic
+	Process with radar-web-search
+	Process with github-spider
+	Add to Architect
+	Add to Research Ontology
+
+Debian Package
+        Install
+        Uninstall
+	Status
+	Policy
+	
+FRDCSA Codebase
+               
+
+Email Address
+        Add to Contacts
+
+	
+Paragraph
+	Process with PIKES
+
+
+####

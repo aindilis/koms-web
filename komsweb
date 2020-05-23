@@ -1,8 +1,0 @@
-#!/usr/bin/perl -w
-
-use lib "/var/lib/myfrdcsa/codebases/independent/koms-web";
-
-use KOMSWeb;
-
-$UNIVERSAL::komsweb = KOMSWeb->new();
-$UNIVERSAL::komsweb->Execute();

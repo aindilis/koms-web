@@ -1,0 +1,7 @@
+% layout 'default';
+% title 'KOMS Web';
+<h2><%= $msg %></h2>
+<p>
+  Text: <%= param('t') %><br>
+  Action: <%= param('a') %><br>
+</p>
