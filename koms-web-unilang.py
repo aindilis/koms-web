@@ -11,7 +11,7 @@ import json
 from mitmproxy import http
 
 def QueryAgent(agent, contents):
-    proxy = xmlrpc.client.ServerProxy('http://localhost:10000')
+    proxy = xmlrpc.client.ServerProxy('http://agi.frdcsa.org:10000')
     query = "<message>\n  <id>1</id>\n  <sender>WS-Server-XMLRPC</sender>\n  <receiver>" + saxutils.escape(agent) + "</receiver>\n  <date>Fri Feb  3 02:14:29 CST 2017</date>\n  <contents></contents>\n  <data>" + "$VAR1 = {'_DoNotLog' => 1,'KOMSWebData' => " + json.dumps(saxutils.escape(contents.decode('utf-8'))) + "};\n"  + "</data>\n</message>"
     # sys.stderr.write("\n\nQUERY:\n" + query + "\n\n\n")
     response = proxy.QueryAgent([query])
