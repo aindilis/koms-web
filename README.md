@@ -58,4 +58,5 @@ https traffic, then point your browser to mitm.it and accept the cert.
 Then stop mitmproxy.  Make sure you have all the Perl dependencies
 installed, then start ./komsweb-rpcxml.pl.  Then run ./run.sh in a
 separate term.  Then you should be able to point your browser anywhere
-and it should rewrite the traffic.
+and it should rewrite the traffic.  In order to execute actions, you
+need to run the Mojo app, by cd mojo && ./run.sh
