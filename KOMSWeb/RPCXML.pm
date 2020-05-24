@@ -5,7 +5,7 @@ use lib "/var/lib/myfrdcsa/codebases/independent/koms-web";
 # /var/lib/myfrdcsa/codebases/independent/koms-web/KOMSWeb/Filter.pm
 
 use KOMSWeb::Filter;
-use UniLang::Util::Message;
+use KOMSWeb::Message;
 
 use Data::Dumper;
 
@@ -61,7 +61,7 @@ sub StartServer {
 	$contents =~ s/^<org.frdcsa.unilang.util.Message>/<message>/s;
 	$contents =~ s/<\/org.frdcsa.unilang.util.Message>\n$/<\/message>/s;
 	# print Dumper({Contents => $contents});
-	my $message = UniLang::Util::Message->new
+	my $message = KOMSWeb::Message->new
 	  (
 	   Raw => $contents,
 	  );
@@ -69,7 +69,7 @@ sub StartServer {
 	my $data = $message->Data->{KOMSWebData};
 	KOMSWeb::Filter::Analyze(\$result,$data);
 	# UniLang::Agent::Agent
-	my $response = UniLang::Util::Message->new
+	my $response = KOMSWeb::Message->new
 	  (
 	   Sender => $args{Sender} || 'KOMSWeb',
 	   Receiver => $args{Receiver} || "WS-Server-XMLRPC",
