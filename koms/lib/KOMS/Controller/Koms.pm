@@ -26,6 +26,16 @@ sub index {
       (
        Command => "cd /var/lib/myfrdcsa/codebases/minor/debian-rulebase/documentation-test && wget -x -np ".shell_quote($url),
       );
+  } elsif ($self->param('a') eq 'sentinel') {
+    my $url = $self->AbsoluteURL
+      (
+       Loc => 'https://frdcsa.org/frdcsa',
+       Rel => $self->param('t'),
+      );
+    $self->DoCommand
+      (
+       Command => "cd /home/andrewdo/Documents && wget ".shell_quote($url),
+      );
   }
   $self->finish('');
 }
