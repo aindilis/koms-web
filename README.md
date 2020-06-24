@@ -7,7 +7,7 @@ extraction etc.
 # Overview
 
 You can see the system in operation here:
-https://frdcsa.org/~andrewdo/projects/rewriting-proxy.flv
+https://frdcsa.org/~andrewdo/projects/rewriting-proxy.webm
 
 The point of this system is to add all kinds of annotations to web
 documents providing functions.  Another bug for the program is that
