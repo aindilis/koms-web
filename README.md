@@ -48,15 +48,23 @@ use it in other situations.  One such situation could be to organize
 research in general, or to help me to package software more quickly
 that I find on researcher's web pages, etc.
 
+
 # How to Run (New)
 
+You must have "screen", "mojolicious" and firefox or chrome installed
+and configured (See How to Run (Old)).
 
-edit the config.sh file for the appropriate dirs and systems
+Edit the config.sh file for the appropriate dirs and systems.
 
-./start-all.sh
+```./start-all.sh```
 
-use at your own risk (lots of kill -9 stuff)
-./stop-all.sh
+Make sure your browser is configured with the correct proxy
+(http://localhost:8080 and https://localhost:8080).
+
+Use this stop script at your own risk (lots of kill -9 stuff):
+
+```./stop-all.sh```
+
 
 # How to Run (Old)
 
