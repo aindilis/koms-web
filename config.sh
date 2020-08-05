@@ -1,3 +1,7 @@
 KOMSWEB_DIR=/var/lib/myfrdcsa/codebases/independent/koms-web
-KOMSWebScript=koms-web-unilang.py
-# KOMSWebScript=koms-web.py
+
+# KOMSWebPythonScript=koms-web-unilang.py
+# KOMSWebPerlScript=komsweb-agent.pl
+
+KOMSWebPythonScript=koms-web.py
+KOMSWebPerlScript=komsweb-rpcxml.pl

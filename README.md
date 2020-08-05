@@ -48,7 +48,15 @@ use it in other situations.  One such situation could be to organize
 research in general, or to help me to package software more quickly
 that I find on researcher's web pages, etc.
 
-# How to Run
+# How to Run (New)
+
+edit the config.sh file for the appropriate dirs and systems
+
+./start-all.sh
+
+./stop-all.sh
+
+# How to Run (Old)
 
 You can see the setup.sh stuff, it's not perfectly accurate.  You need
 to first install mitmproxy.  Then you have to run mitmproxy, so that
