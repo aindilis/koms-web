@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
 
 use Getopt::Declare;
 use UniLang::Agent::Agent;

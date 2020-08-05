@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
 
 # connect to it and send it a test message...
 
@@ -10,7 +10,7 @@ use UniLang::Util::Message;
 
 my $serverstring;
 if (1) {
-  $serverstring = "http://agi.frdcsa.org:10000";
+  $serverstring = "http://ai2.frdcsa.org:10000";
 } elsif (0) {
   $serverstring = "http://localhost:10000";
 } else {

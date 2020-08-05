@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl
 
 use lib "/var/lib/myfrdcsa/codebases/independent/koms-web";
 
