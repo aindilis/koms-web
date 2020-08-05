@@ -50,10 +50,12 @@ that I find on researcher's web pages, etc.
 
 # How to Run (New)
 
+
 edit the config.sh file for the appropriate dirs and systems
 
 ./start-all.sh
 
+use at your own risk (lots of kill -9 stuff)
 ./stop-all.sh
 
 # How to Run (Old)
